@@ -13,7 +13,7 @@ const nameScore = (name, index) => {
 };
 
 const calculateTotalScore = async () => {
-  let data = await readFile("./names-problem-twenty-two.txt", "utf8");
+  let data = await readFile("./names-problem-twenty-two.txt", "utf8"); // I did not upload the file, you can find it in project euler website
   let names = data
     .split(",")
     .map((name) => name.replace(/"/g, ""))
@@ -21,5 +21,4 @@ const calculateTotalScore = async () => {
   return names.reduce((sum, name, index) => sum + nameScore(name, index), 0);
 };
 
-// Using the function
 calculateTotalScore().then(console.log).catch(console.error);
