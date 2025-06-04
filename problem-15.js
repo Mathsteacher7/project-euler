@@ -18,4 +18,4 @@ const numOfPathsDP = (n) => {
   return grid[n][n];
 };
 
-console.log(numOfPathsDP(20));
+module.exports = numOfPathsDP;

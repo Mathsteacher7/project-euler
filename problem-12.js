@@ -22,4 +22,4 @@ const TriangleNumberWithFiveDivisors = (n) => {
   return (i * (i + 1)) / 2;
 };
 
-console.log(TriangleNumberWithFiveDivisors(500));
+module.exports = TriangleNumberWithFiveDivisors;

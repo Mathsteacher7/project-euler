@@ -13,4 +13,4 @@ const largestPalindormeProduct = () => {
   return largestPalindrom;
 };
 
-console.log(largestPalindormeProduct());
+module.exports = largestPalindormeProduct;

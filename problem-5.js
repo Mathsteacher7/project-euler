@@ -20,4 +20,4 @@ const smallestMultiple = (n) => {
   return maxLCM;
 };
 
-console.log(smallestMultiple(20));
+module.exports = smallestMultiple;

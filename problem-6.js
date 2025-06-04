@@ -4,4 +4,4 @@ const sumSquareDifference = (n) => {
   return squareOfSum - sumOfSquares;
 };
 
-console.log(sumSquareDifference(100));
+module.exports = sumSquareDifference;

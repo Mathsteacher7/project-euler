@@ -13,4 +13,4 @@ const countFirstMonthSundays = () => {
   return sundaysCount;
 };
 
-console.log(countFirstMonthSundays());
+module.exports = countFirstMonthSundays;

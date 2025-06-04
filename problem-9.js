@@ -10,4 +10,4 @@ const specialPythagoreanTriplet = (n) => {
   return null;
 };
 
-console.log(specialPythagoreanTriplet(1000));
+module.exports = specialPythagoreanTriplet;

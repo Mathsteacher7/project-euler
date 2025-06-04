@@ -28,4 +28,4 @@ const findNthPrime = (n) => {
   return nthPrime;
 };
 
-console.log(findNthPrime(10001));
+module.exports = findNthPrime;
