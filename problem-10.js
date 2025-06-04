@@ -20,4 +20,4 @@ const sumOfPrimesUpToANumber = (n) => {
   return sumOfPrimes;
 };
 
-console.log(sumOfPrimesUpToANumber(2000000));
+module.exports = sumOfPrimesUpToANumber;

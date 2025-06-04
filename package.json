@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "As a former Maths teacher, I like to play between Maths and code. Therefore, I will solve from time to time some project Euler problems (https://projecteuler.net/) and will upload the solutions. For now, at least, all answers will be in JS; I might play later on with other languages.",
+  "main": "problem-1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathsteacher7/project-euler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathsteacher7/project-euler/issues"
+  },
+  "homepage": "https://github.com/Mathsteacher7/project-euler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

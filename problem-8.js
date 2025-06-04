@@ -15,4 +15,4 @@ const biggestProductOfThirteenDigits = (n) => {
   return maxProduct;
 };
 
-console.log(biggestProductOfThirteenDigits(numberWithDigits));
+module.exports = { biggestProductOfThirteenDigits, numberWithDigits };

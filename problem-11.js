@@ -123,4 +123,4 @@ const largestGridProduct = (grid) => {
   return maxProduct;
 };
 
-console.log("numbersGrid", largestGridProduct(numbersGrid));
+module.exports = { largestGridProduct, numbersGrid };

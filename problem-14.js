@@ -31,4 +31,4 @@ const longestChain = (n) => {
   return startingNumber;
 };
 
-console.log(longestChain(1000000));
+module.exports = longestChain;

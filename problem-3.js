@@ -29,4 +29,4 @@ const largestPrimeFactor = (n) => {
   return maxPrime;
 };
 
-console.log(largestPrimeFactor(600851475143));
+module.exports = largestPrimeFactor;

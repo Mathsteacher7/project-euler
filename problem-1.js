@@ -7,4 +7,4 @@ const calaulateSum = (n) => {
   return sum;
 };
 
-console.log(calaulateSum(1000));
+module.exports = calaulateSum;

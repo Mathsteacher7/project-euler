@@ -134,4 +134,4 @@ const sumLargeNumbers = (nums) => {
   return result;
 };
 
-console.log(sumLargeNumbers(bigNumbers));
+module.exports = { sumLargeNumbers, bigNumbers };

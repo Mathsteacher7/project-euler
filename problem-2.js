@@ -10,4 +10,4 @@ const findSumOfEvenFibonacci = (n) => {
   return sum;
 };
 
-console.log(findSumOfEvenFibonacci(4000000));
+module.exports = findSumOfEvenFibonacci;
